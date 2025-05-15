@@ -29,5 +29,34 @@ OUTPUT:
 - 🗂 Dataset sourced from TMDB (genres, overview, keywords, cast, crew, etc.)
 - 💬 Interactive recommendation interface via CLI or web (optional)
 
+
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/movie-reccomendation-app.git
+cd movie-reccomend
+```
+
+### 2. Make sure streamlit is installed. If not:
+
+```bash
+pip install streamlit
+```
+
+###3. Manually run Streamlit using Python:
+
+```bash
+python -m streamlit run app.py
+```
+
+###Or, if you've added Streamlit to your system PATH
+```bash
+streamlit run app.py
+```
 ---
 
